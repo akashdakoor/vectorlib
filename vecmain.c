@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "veclib.h"
 #include "vecadd.c"
+#include "vecdot.c"
 
 int main(void)
 {
@@ -30,7 +31,7 @@ int main(void)
     // printf("The difference is:\n");
     // print(vRes);
     // printing dot product
-    // printf("The dot product is %.2f\n", dot_Prod(v1, v2));
+    printf("The dot product is %.2f\n", dot_Prod(v1, v2));
     // printing angle between the two vectors
     // printf("The angle between the two vectors is %.2f\n", angle(v1, v2));
     return 0;
