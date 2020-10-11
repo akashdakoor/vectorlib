@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "veclib.h"
+#include "vecadd.c"
 
 int main(void)
 {
@@ -17,9 +18,9 @@ int main(void)
     }
 
     // printing sum
-    // add(v1, v2, vRes);
-    // printf("The sum is:\n");
-    // print(vRes);
+    add(v1, v2, vRes);
+    printf("The sum is:\n");
+    print(vRes);
     // printing elementwise product
     // elem_Prod(v1, v2, vRes);
     // printf("The elementwise product is:\n");
