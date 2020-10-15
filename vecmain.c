@@ -32,6 +32,8 @@ int main(void)
     // print(vRes);
     // printing dot product
     printf("The dot product is %.2f\n", dot_Prod(v1, v2));
+    // printing norm
+    printf("The norm is %.2f\n", norm(v1, v2));
     // printing angle between the two vectors
     // printf("The angle between the two vectors is %.2f\n", angle(v1, v2));
     return 0;

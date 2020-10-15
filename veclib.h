@@ -16,6 +16,8 @@ void ele_Prod(Vector, Vector, Vector);
 void diff(Vector, Vector, Vector);
 // dot product
 float dot_Prod(Vector, Vector);
+// norm of two vectors
+float norm(Vector, Vector);
 // angle
 float angle(Vector, Vector);
 
