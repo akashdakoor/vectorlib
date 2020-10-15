@@ -2,6 +2,8 @@
 #include "veclib.h"
 #include "vecadd.c"
 #include "vecdot.c"
+#include "vecprod.c"
+
 
 int main(void)
 {
@@ -23,9 +25,9 @@ int main(void)
     printf("The sum is:\n");
     print(vRes);
     // printing elementwise product
-    // elem_Prod(v1, v2, vRes);
-    // printf("The elementwise product is:\n");
-    // print(vRes);
+    elem_Prod(v1, v2, vRes);
+    printf("The elementwise product is:\n");
+    print(vRes);
     // printing difference
     // diff(v1, v2, vRes);
     // printf("The difference is:\n");
@@ -33,7 +35,7 @@ int main(void)
     // printing dot product
     printf("The dot product is %.2f\n", dot_Prod(v1, v2));
     // printing norm
-    printf("The norm is %.2f\n", norm(v1, v2));
+    // printf("The norm is %.2f\n", norm(v1, v2));
     // printing angle between the two vectors
     // printf("The angle between the two vectors is %.2f\n", angle(v1, v2));
     return 0;
