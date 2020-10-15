@@ -3,6 +3,7 @@
 #include "vecadd.c"
 #include "vecdot.c"
 #include "vecprod.c"
+#include "vecnorm.c"
 
 
 int main(void)

@@ -1,4 +1,5 @@
 #include "veclib.h"
+#include <math.h>
 
 float norm(Vector V1, Vector V2)
 {
