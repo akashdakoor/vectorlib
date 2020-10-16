@@ -4,7 +4,7 @@
 #include "vecdot.c"
 #include "vecprod.c"
 #include "vecnorm.c"
-
+#include "vecangle.c"
 
 int main(void)
 {
@@ -38,6 +38,6 @@ int main(void)
     // printing norm
     // printf("The norm is %.2f\n", norm(v1, v2));
     // printing angle between the two vectors
-    // printf("The angle between the two vectors is %.2f\n", angle(v1, v2));
+    printf("The angle between the two vectors is %.2f\n", angle(v1, v2));
     return 0;
 }
